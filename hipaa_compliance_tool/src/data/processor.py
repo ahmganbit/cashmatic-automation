@@ -18,8 +18,8 @@ def extract_contact_info(trial_data):
     # Extract Central Contacts
     if emails := trial_data.get('CentralContactEMail', []):
         contacts['central_contacts'] = [
-            email for email in emails 
-            if re.match(r'^[\w.+-]+@[\w-]+\.[a-z]{2,}$', email)
+            email for email in emails
+            if re.match(r'^[\w.+-]+@[\w.-]+\.[a-zA-Z]{2,}$', email)
         ]
         
     return contacts
