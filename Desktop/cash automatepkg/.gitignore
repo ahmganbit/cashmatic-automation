@@ -73,6 +73,3 @@ Thumbs.db
 money-machine.log
 setup.log
 application-tracker-data.json
-
-# Ignore src directory (duplicate/backup)
-src/
