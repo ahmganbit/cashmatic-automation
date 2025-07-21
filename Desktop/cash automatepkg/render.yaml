@@ -2,7 +2,7 @@ services:
   - type: web
     name: cashmatic-automation
     env: node
-    rootDir: src
+    rootDir: Desktop/cash automatepkg/src
     buildCommand: npm install
     startCommand: npm start
     healthCheckPath: /health
