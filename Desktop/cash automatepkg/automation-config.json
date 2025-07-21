@@ -1,0 +1,44 @@
+{
+  "affiliateLinks": {
+    "clickfunnels": "https://www.plrfunnels.com/plr?aff=df85f82408d6be56fbd3d5189cb62",
+    "jasper": "https://jasper.ai/partners?ref=YOUR_ID",
+    "getresponse": "https://www.getresponse.com/affiliates?ref=YOUR_ID",
+    "teachable": "https://teachable.com/affiliates?ref=YOUR_ID"
+  },
+  "automation": {
+    "enabled": true,
+    "blogPostFrequency": 24,
+    "socialPostFrequency": 4,
+    "emailSequenceDelay": 48,
+    "monitoringInterval": 30,
+    "autoScale": true
+  },
+  "platforms": {
+    "wordpress": {
+      "enabled": true,
+      "webhook": "https://hooks.zapier.com/hooks/catch/23844949/wordpress/"
+    },
+    "medium": {
+      "enabled": true,
+      "webhook": "https://hooks.zapier.com/hooks/catch/23844949/medium/"
+    },
+    "twitter": {
+      "enabled": true,
+      "webhook": "https://hooks.zapier.com/hooks/catch/23844949/twitter/"
+    },
+    "linkedin": {
+      "enabled": true,
+      "webhook": "https://hooks.zapier.com/hooks/catch/23844949/linkedin/"
+    },
+    "instagram": {
+      "enabled": true,
+      "webhook": "https://hooks.zapier.com/hooks/catch/23844949/instagram/"
+    },
+    "email": {
+      "enabled": true,
+      "webhook": "https://hooks.zapier.com/hooks/catch/23844949/email/"
+    }
+  },
+  "setupDate": "2025-07-19T22:57:52.568Z",
+  "version": "1.0.0"
+}
