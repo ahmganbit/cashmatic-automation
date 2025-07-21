@@ -1,9 +1,33 @@
 {
   "affiliateLinks": {
     "clickfunnels": "https://www.plrfunnels.com/plr?aff=df85f82408d6be56fbd3d5189cb62",
-    "jasper": "https://jasper.ai/partners?ref=YOUR_ID",
-    "getresponse": "https://www.getresponse.com/affiliates?ref=YOUR_ID",
-    "teachable": "https://teachable.com/affiliates?ref=YOUR_ID"
+    "liquidweb": "https://www.liquidweb.com/partners/affiliate-program/",
+    "authorityhacker": "https://forms.authorityhacker.com/affiliate-application",
+    "semrush": "https://www.semrush.com/lp/affiliate-program/en/",
+    "kinsta": "https://kinsta.com/affiliates/",
+    "getresponse": "https://www.getresponse.com/affiliates",
+    "teachable": "https://teachable.com/affiliates",
+    "jasper": "SUSPENDED - Program under construction"
+  },
+  "programStatus": {
+    "clickfunnels": "active",
+    "liquidweb": "pending",
+    "authorityhacker": "pending",
+    "semrush": "pending",
+    "kinsta": "pending",
+    "getresponse": "pending",
+    "teachable": "pending",
+    "jasper": "suspended"
+  },
+  "commissionRates": {
+    "clickfunnels": 497,
+    "liquidweb": 7000,
+    "authorityhacker": 1500,
+    "semrush": 200,
+    "kinsta": 500,
+    "getresponse": 120,
+    "teachable": 450,
+    "jasper": 0
   },
   "automation": {
     "enabled": true,
@@ -39,6 +63,8 @@
       "webhook": "https://hooks.zapier.com/hooks/catch/23844949/email/"
     }
   },
-  "setupDate": "2025-07-19T22:57:52.568Z",
-  "version": "1.0.0"
+  "setupDate": "2025-07-21T00:00:00.000Z",
+  "lastUpdate": "2025-07-21T00:00:00.000Z",
+  "version": "2.0.0",
+  "notes": "Updated with 7-program affiliate system, Jasper suspended, focus on high-ticket programs"
 }

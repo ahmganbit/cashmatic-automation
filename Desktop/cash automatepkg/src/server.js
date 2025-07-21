@@ -23,10 +23,10 @@ app.use(express.static(path.join(__dirname, 'public')));
 // In-memory storage (replace with database in production)
 let appData = {
   earnings: {
-    daily: 156.89,
-    weekly: 1098.23,
-    monthly: 4725.67,
-    total: 28394.52
+    daily: 86.23,
+    weekly: 604.61,
+    monthly: 2587.45,
+    total: 15247.89
   },
   campaigns: [
     {
@@ -38,7 +38,8 @@ let appData = {
       conversionRate: 3.2,
       nextAction: "Email sequence running",
       affiliateLinks: [
-        { tool: "ClickFunnels PLR", commission: 497, link: "https://www.plrfunnels.com/plr?aff=df85f82408d6be56fbd3d5189cb62" }
+        { tool: "ClickFunnels", commission: 497, link: "https://clickfunnels.com?ref=cashmatic" },
+        { tool: "GetResponse", commission: 120, link: "https://getresponse.com?ref=cashmatic" }
       ]
     },
     {
@@ -46,71 +47,11 @@ let appData = {
       name: "Premium Hosting Reviews",
       type: "content",
       status: "active",
-      dailyEarnings: 78.45,
-      conversionRate: 4.1,
+      dailyEarnings: 28.76,
+      conversionRate: 2.8,
       nextAction: "Liquid Web review publishing",
       affiliateLinks: [
-        { tool: "Liquid Web", commission: 7000, link: "https://www.liquidweb.com/partners/affiliate-program/" }
-      ]
-    },
-    {
-      id: 3,
-      name: "Authority Hacker Promotion",
-      type: "affiliate",
-      status: "pending",
-      dailyEarnings: 0,
-      conversionRate: 0,
-      nextAction: "Application submitted - awaiting approval",
-      affiliateLinks: [
-        { tool: "Authority Hacker", commission: 1500, link: "https://forms.authorityhacker.com/affiliate-application" }
-      ]
-    },
-    {
-      id: 4,
-      name: "SEO Tools Campaign",
-      type: "affiliate",
-      status: "pending",
-      dailyEarnings: 0,
-      conversionRate: 0,
-      nextAction: "Semrush application in progress",
-      affiliateLinks: [
-        { tool: "Semrush", commission: 200, link: "https://www.semrush.com/lp/affiliate-program/en/" }
-      ]
-    },
-    {
-      id: 5,
-      name: "Premium Hosting Suite",
-      type: "affiliate",
-      status: "pending",
-      dailyEarnings: 0,
-      conversionRate: 0,
-      nextAction: "Kinsta application submitted",
-      affiliateLinks: [
-        { tool: "Kinsta", commission: 500, link: "https://kinsta.com/affiliates/" }
-      ]
-    },
-    {
-      id: 6,
-      name: "Email Marketing Tools",
-      type: "affiliate",
-      status: "pending",
-      dailyEarnings: 0,
-      conversionRate: 0,
-      nextAction: "GetResponse application pending",
-      affiliateLinks: [
-        { tool: "GetResponse", commission: 120, link: "https://www.getresponse.com/affiliates" }
-      ]
-    },
-    {
-      id: 7,
-      name: "Course Creation Platform",
-      type: "affiliate",
-      status: "pending",
-      dailyEarnings: 0,
-      conversionRate: 0,
-      nextAction: "Teachable application submitted",
-      affiliateLinks: [
-        { tool: "Teachable", commission: 450, link: "https://teachable.com/affiliates" }
+        { tool: "Liquid Web", commission: 1000, link: "https://liquidweb.com?ref=cashmatic" }
       ]
     }
   ],

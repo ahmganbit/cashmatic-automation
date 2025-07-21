@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js",
-    "build": "echo 'Build complete'",
+    "build": "echo 'Build complete - no build step required'",
     "test": "echo 'No tests specified'"
   },
   "keywords": [
@@ -43,7 +43,5 @@
     "type": "git",
     "url": "https://github.com/ahmganbit/cashmatic-automation.git"
   },
-  "homepage": "https://cashmatic-automation.onrender.com",
-  "buildCommand": "npm install",
-  "startCommand": "npm start"
+  "homepage": "https://cashmatic-automation.onrender.com"
 }
