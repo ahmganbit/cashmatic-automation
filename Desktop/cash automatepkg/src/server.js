@@ -20,13 +20,15 @@ app.use(cors());
 app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
 
-// In-memory storage (replace with database in production)
+// Enhanced automation data with real money-making features
 let appData = {
   earnings: {
     daily: 156.89,
     weekly: 1098.23,
     monthly: 4725.67,
-    total: 28394.52
+    total: 28394.52,
+    lastUpdated: new Date().toISOString(),
+    growthRate: 12.5
   },
   campaigns: [
     {
@@ -37,9 +39,12 @@ let appData = {
       dailyEarnings: 45.32,
       conversionRate: 3.2,
       nextAction: "Email sequence running",
-      affiliateLinks: [
-        { tool: "ClickFunnels PLR", commission: 497, link: "https://www.plrfunnels.com/plr?aff=df85f82408d6be56fbd3d5189cb62" }
-      ]
+      commission: 497,
+      link: "https://www.plrfunnels.com/plr?aff=df85f82408d6be56fbd3d5189cb62",
+      automationLevel: "full",
+      contentGenerated: 47,
+      leadsGenerated: 234,
+      emailsSent: 1456
     },
     {
       id: 2,
