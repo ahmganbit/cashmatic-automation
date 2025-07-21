@@ -68,3 +68,11 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.temp
+
+# Application specific
+money-machine.log
+setup.log
+application-tracker-data.json
+
+# Ignore src directory (duplicate/backup)
+src/
