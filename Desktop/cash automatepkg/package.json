@@ -2,9 +2,9 @@
   "name": "passive-income-automation-tool",
   "version": "1.0.0",
   "description": "AI-powered passive income automation dashboard generating $50-100 daily",
-  "main": "server.js",
+  "main": "render-server.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node render-server.js",
     "dev": "nodemon server.js",
     "build": "npm run build:client",
     "build:client": "react-scripts build",
